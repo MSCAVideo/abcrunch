@@ -1,4 +1,5 @@
-require "abcrunch/version"
+require 'abcrunch/log_console_writer'
+require 'abcrunch/version'
 require 'rake'
 
 Dir[File.join(File.dirname(__FILE__), "**/*.rb")].each { |f| require f }
